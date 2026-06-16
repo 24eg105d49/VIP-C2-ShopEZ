@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+Client/node_modules/
+Server/node_modules/
+
+# Build output
+Client/dist/
+Client/dist-ssr/
+
+# Local environment files
+.env
+Server/.env
+*.local
+
+# Portable runtimes and databases
+node-portable/
+mongodb-portable/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
